@@ -21,6 +21,8 @@ spec:
       labels:
         application: webpage
     spec:
+      imagePullSecrets: 
+      - name: ecr-registry-secret
       containers:
       - name: webpage-container
         image: Build_Tag
