@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: webpage-container
-        image: aejazawte/maven-web-application:1
+        image: Build_Tag
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
